@@ -25,6 +25,6 @@ rule evasion_detect_analysis_tools
         $string_17 = "VBox" wide ascii nocase
         
     condition:
-        (uint16(0) == 0x5A4D) and
+        (uint16(0) == 0x5A4D) and // Remove this condition if targetting process memory or memdumps.
         5 of ($string_*)
 }
