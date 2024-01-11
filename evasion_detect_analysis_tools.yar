@@ -1,4 +1,4 @@
-rule test_evasion_detect_analysis_tools
+rule evasion_detect_analysis_tools
 {
     meta:
         author = "Kyle Cucci (d@rksystem)"
